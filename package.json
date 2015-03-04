@@ -1,7 +1,7 @@
 {
   "name": "sync-travis",
   "description": "Sync your Github projects with Travis CI, to ensure it's updated with your latest projects before executing other commands.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/sync-travis",
   "author": {
     "name": "Jon Schlinkert",
@@ -23,6 +23,10 @@
     "cli.js"
   ],
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "sync-travis": "./cli.js"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
@@ -40,5 +44,15 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*"
-  }
+  },
+  "keywords": [
+    "api",
+    "cli",
+    "command",
+    "github",
+    "projects",
+    "sync",
+    "travis",
+    "update"
+  ]
 }

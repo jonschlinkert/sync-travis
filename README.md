@@ -1,6 +1,6 @@
 # sync-travis [![NPM version](https://badge.fury.io/js/sync-travis.svg)](http://badge.fury.io/js/sync-travis)  [![Build Status](https://travis-ci.org/jonschlinkert/sync-travis.svg)](https://travis-ci.org/jonschlinkert/sync-travis) 
 
-> Sync Travis CI to GitHub, to ensure it's updated with your latest projects before executing other commands.
+> Sync your Github projects with Travis CI, to ensure it's updated with your latest projects before executing other commands.
 
 ## Install globally with [npm](npmjs.org):
 
