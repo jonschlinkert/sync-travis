@@ -1,6 +1,6 @@
 {
   "name": "sync-travis",
-  "description": "Sync Travis CI to GitHub, to ensure it's updated with your latest projects before executing other commands.",
+  "description": "Sync your Github projects with Travis CI, to ensure it's updated with your latest projects before executing other commands.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/sync-travis",
   "author": {
