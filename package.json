@@ -1,0 +1,44 @@
+{
+  "name": "sync-travis",
+  "description": "Sync Travis CI to GitHub, to ensure it's updated with your latest projects before executing other commands.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/sync-travis",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/sync-travis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/sync-travis/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/sync-travis/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "git-user-name": "^1.0.1",
+    "git-username": "^0.4.0",
+    "inquirer": "^0.8.0",
+    "log-symbols": "^1.0.2",
+    "travis-ci": "^2.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
