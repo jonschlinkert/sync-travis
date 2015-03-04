@@ -23,13 +23,7 @@ sync-travis
 
 Next, you will be prompted to enter your github username and password:
 
-```bash
-Please provide your github username and password:
-(answers are never stored):
-
-? username: jonschlinkert
-? password: ********
-```
+![image](https://cloud.githubusercontent.com/assets/383994/6496185/dc639d94-c29e-11e4-8ab2-0679e31a507b.png)
 
 Done! It will attempt to fill in default answers using the git-remote-origin URL, the git username, and package.json project name. But you can override these as necessary.
 
