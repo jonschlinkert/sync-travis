@@ -1,4 +1,4 @@
-# sync-travis [![NPM version](https://badge.fury.io/js/sync-travis.svg)](http://badge.fury.io/js/sync-travis)  [![Build Status](https://travis-ci.org/jonschlinkert/sync-travis.svg)](https://travis-ci.org/jonschlinkert/sync-travis) 
+# sync-travis [![NPM version](https://badge.fury.io/js/sync-travis.svg)](http://badge.fury.io/js/sync-travis)
 
 > Sync your Github projects with Travis CI, to ensure it's updated with your latest projects before executing other commands.
 
@@ -21,7 +21,7 @@ From the command line:
 sync-travis
 ```
 
-Next, you will be prompted to enter your github username and password:
+Next, you will be prompted to enter your github username and password:  
 
 ![image](https://cloud.githubusercontent.com/assets/383994/6496185/dc639d94-c29e-11e4-8ab2-0679e31a507b.png)
 
